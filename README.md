@@ -34,6 +34,7 @@ Object.defineProperty((webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c 
 ```
 
 ### Client Sided Nitro
+Simulate Discord Nitro without getting any perks, this is pretty useless just buy Nitro using Blossom or something :)
 ```js
 webpackChunkdiscord_app.push([[[Math.random()]],{},q=>Object.values(q.c).find(e=>e.exports?.default?.getCurrentUser).exports.default.getCurrentUser().premiumType=2])
 ```
