@@ -16,7 +16,8 @@ Use this script to get your Discord account token!
 ### Login Using Token
 To login using a discord token, use this script!
 ```js
-function login(token) {   setInterval(() => {   document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`   }, 50);   setTimeout(() => {   location.reload();   }, 2500);   }      login('TOKEN HERE')
+function login(token) {   setInterval(() => {   document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`   }, 50);   setTimeout(() => {   location.reload();   }, 2500);   }      
+login('TOKEN HERE')
 ```
 
 ### Generate Friend Code
