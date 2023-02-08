@@ -21,7 +21,19 @@ login('TOKEN HERE')
 ```
 
 ### Generate Friend Code
-Can be used max 5 times, and expires after 7 days. This will generate a `discord.gg/xxx` code that will automatically add you as a friend when used by someone.
+Can be used max 5 times, and expires after 7 days. This will generate a `discord.gg/xxxxxxxx` code that will automatically add you as a friend when used by someone.
 ```js
 webpackChunkdiscord_app.push([[[Math.random()]],{},q=>Object.values(q.c).find(e=>e.exports?.Z?.createFriendInvite).exports.Z.createFriendInvite().then(console.log)])
+```
+
+## Fun snippets
+### Enable Experimental Features
+Discord's experimental features can sometimes be fun to play around with, here's the snipped used to activate such features. This will unlock a new tab that you can find in the Discord settings.
+```js
+Object.defineProperty((webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.isDeveloper!==void 0).exports.default,"isDeveloper",{get:()=>true});
+```
+
+### Client Sided Nitro
+```js
+webpackChunkdiscord_app.push([[[Math.random()]],{},q=>Object.values(q.c).find(e=>e.exports?.default?.getCurrentUser).exports.default.getCurrentUser().premiumType=2])
 ```
