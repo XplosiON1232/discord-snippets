@@ -1,4 +1,4 @@
 # Discord Snippets
 Useful and fun snippets for Discord
 
-Test code? `code here`
+Test code? ```code here```
