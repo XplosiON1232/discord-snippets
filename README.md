@@ -1,5 +1,5 @@
 # Discord Snippets
-Useful and fun javascript snippets for Discord! Warning! It's always very important to make sure all scripts you paste into the Discord console are safe and not malicious, certain scripts can steal your credentials! Please cautious! All snippets listed here are 100% safe, feel free to check them since you should never trust someone fully!
+Useful and fun javascript snippets for Discord! Warning! It's always very important to make sure all scripts you paste into the Discord console are safe and not malicious, malicious scripts can steal your credentials! Please cautious! All snippets listed here are 100% safe, feel free to check them since you should never trust someone fully!
 
 ## Useful snippets
 ### Enable Developer Tools
