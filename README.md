@@ -1,7 +1,7 @@
 # Discord Snippets
-Useful and fun snippets for Discord
+Useful and fun javascript snippets for Discord
 
-Test code? 
+Test code? <span style="color:blue">some *blue* text</span>.
 ```js
 code here
 ```
