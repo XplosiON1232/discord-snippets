@@ -1,5 +1,5 @@
 # Discord Snippets
-Useful and fun javascript snippets for Discord
+Useful and fun javascript snippets for Discord! Warning! It's always very important to make sure all scripts you paste into the Discord console are safe and not malicious, certain scripts can steal your credentials! Please cautious! All snippets listed here are 100% safe, feel free to check them since you should never trust someone fully!
 
 ## Useful snippets
 ### Enable Developer Tools
@@ -21,4 +21,7 @@ login('TOKEN HERE')
 ```
 
 ### Generate Friend Code
-Can be used max 5 times, and expires after 7 days.
+Can be used max 5 times, and expires after 7 days. This will generate a `discord.gg/xxx` code that will automatically add you as a friend when used by someone.
+```js
+webpackChunkdiscord_app.push([[[Math.random()]],{},q=>Object.values(q.c).find(e=>e.exports?.Z?.createFriendInvite).exports.Z.createFriendInvite().then(console.log)])
+```
