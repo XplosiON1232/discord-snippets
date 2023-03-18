@@ -30,11 +30,6 @@ webpackChunkdiscord_app.push([[[Math.random()]],{},q=>Object.values(q.c).find(e=
 ### Enable Experimental Features
 Discord's experimental features can sometimes be fun to play around with, here's the snipped used to activate such features. This will unlock a new tab that you can find in the Discord settings.
 ```js
-webpackChunkdiscord_app.push([["wp_isdev_patch"], {}, r => cache=Object.values(r.c)]);var UserStore = cache.find(m =>m?.exports?.default?.getCurrentUser).exports.default;var actions = UserStore._dispatcher._actionHandlers._orderedActionHandlers["CONNECTION_OPEN"];var user=UserStore.getCurrentUser();actions.find(n => n.name === "ExperimentStore").actionHandler({type: "CONNECTION_OPEN", user: {flags: user.flags |= 1}, experiments:[],});actions.find(n => n.name === "DeveloperExperimentStore").actionHandler();webpackChunkdiscord_app.pop(); user.flags &= ~1; "done";
-```
-
-If the above does not work, use this one! Updated March 2023!!
-```js
 let wpRequire;window.webpackChunkdiscord_app.push([[Math.random()],{},e=>{wpRequire=e}]),mod=Object.values(wpRequire.c).find((e=>void 0!==e?.exports?.Z?.isDeveloper)),usermod=Object.values(wpRequire.c).find((e=>e?.exports?.default?.getUsers)),nodes=Object.values(mod.exports.Z._dispatcher._actionHandlers._dependencyGraph.nodes);try{nodes.find((e=>"ExperimentStore"==e.name)).actionHandler.OVERLAY_INITIALIZE({user:{flags:1}})}catch(e){}oldGetUser=usermod.exports.default.__proto__.getCurrentUser,usermod.exports.default.__proto__.getCurrentUser=()=>({isStaff:()=>!0}),nodes.find((e=>"DeveloperExperimentStore"==e.name)).actionHandler.CONNECTION_OPEN(),usermod.exports.default.__proto__.getCurrentUser=oldGetUser;
 ```
 
