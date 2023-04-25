@@ -20,7 +20,7 @@ function login(token){setInterval(()=>{document.body.appendChild(document.create
 login('TOKEN HERE')
 ```
 
-### Generate Friend Code (Not working anymore)
+### Generate Friend Code [⚠Not working anymore]
 Can be used max 5 times, and expires after 7 days. This will generate a `discord.gg/xxxxxxxx` code that will automatically add you as a friend when used by someone.
 ```js
 webpackChunkdiscord_app.push([[[Math.random()]],{},q=>Object.values(q.c).find(e=>e.exports?.Z?.createFriendInvite).exports.Z.createFriendInvite().then(console.log)])
